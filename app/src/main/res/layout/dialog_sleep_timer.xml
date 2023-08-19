@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:background="@color/white">
+
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="54dp"
+           android:text="15 min"
+           android:textSize="18sp"
+           android:gravity="center"
+           android:textColor="@color/dark"
+           android:id="@+id/min15"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="30 min"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/dark"
+        android:id="@+id/min30"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="45 min"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/dark"
+        android:id="@+id/min45"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="60 min"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/dark"
+        android:id="@+id/min60"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="120 min"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/dark"
+        android:id="@+id/min120"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

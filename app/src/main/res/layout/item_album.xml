@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/playlist_style"
+    android:id="@+id/relativeLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_folder"
+        android:id="@+id/item_album_img"
+        android:paddingBottom="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Folder"
+        android:textSize="20sp"
+        android:textColor="@color/white_09"
+        android:id="@+id/item_album_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="4dp"
+        android:textStyle="italic"/>
+
+
+</RelativeLayout>

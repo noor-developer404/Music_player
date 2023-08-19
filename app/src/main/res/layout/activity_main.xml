@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/TB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/menu1"
+        app:title="@string/app_name"
+       android:theme="@style/toolbarTheme"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/main_TL"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:tabIndicatorHeight="0dp"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/white_06"
+        app:tabTextAppearance="@style/tablayout"
+        />
+<!--    app:tabBackground="@drawable/tab_item_selected"-->
+<!--    for active tabitem-->
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/main_VP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

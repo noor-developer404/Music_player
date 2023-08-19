@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/li_search"
+        android:title="@string/search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+
+        />
+    <item
+        android:id="@+id/li_themes"
+        android:icon="@drawable/icon_theme"
+        android:title="@string/themes"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/li_settings"
+        android:icon="@drawable/icon_settings"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+</menu>

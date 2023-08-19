@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_cornor">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:layout_marginVertical="20dp"
+          >
+
+          <androidx.constraintlayout.widget.ConstraintLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginVertical="10dp">
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd1"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toStartOf="@+id/cd2"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style">
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@drawable/gradient_gr"/>
+              </com.google.android.material.card.MaterialCardView>
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd2"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  android:backgroundTint="@color/yellow"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toStartOf="@+id/cd3"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toEndOf="@+id/cd1"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style"/>
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd3"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  android:backgroundTint="@color/orange"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toEndOf="@+id/cd2"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style"/>
+
+          </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+          <androidx.constraintlayout.widget.ConstraintLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginVertical="10dp">
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd4"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toStartOf="@+id/cd5"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintHorizontal_chainStyle="spread"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style">
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@drawable/gradient_pb"/>
+              </com.google.android.material.card.MaterialCardView>
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd5"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toStartOf="@+id/cd6"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toEndOf="@+id/cd4"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style">
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@drawable/gradient_green"/>
+              </com.google.android.material.card.MaterialCardView>
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd6"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  android:backgroundTint="@color/brown"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toEndOf="@+id/cd5"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style"/>
+
+          </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+          <androidx.constraintlayout.widget.ConstraintLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginVertical="10dp">
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd7"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  android:backgroundTint="@color/light_blue"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toStartOf="@+id/cd8"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style"/>
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd8"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toStartOf="@+id/cd9"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toEndOf="@+id/cd7"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style">
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@drawable/gradient_orange"/>
+              </com.google.android.material.card.MaterialCardView>
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd9"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  android:backgroundTint="@color/greenis_yellow"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toEndOf="@+id/cd8"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style"/>
+
+          </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+          <androidx.constraintlayout.widget.ConstraintLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginVertical="10dp">
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd10"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toStartOf="@+id/cd11"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style">
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@drawable/gradient_dark"/>
+              </com.google.android.material.card.MaterialCardView>
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd11"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  android:backgroundTint="@color/green"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toStartOf="@+id/cd12"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toEndOf="@+id/cd10"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style"/>
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd12"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  android:backgroundTint="@color/voilet"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toEndOf="@+id/cd11"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style"/>
+
+          </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+          <androidx.constraintlayout.widget.ConstraintLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginVertical="10dp">
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd13"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  android:backgroundTint="@color/purple_700"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toStartOf="@+id/cd14"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style"/>
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd14"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toStartOf="@+id/cd15"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toEndOf="@+id/cd13"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style">
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@drawable/gradient_red"/>
+              </com.google.android.material.card.MaterialCardView>
+
+              <com.google.android.material.card.MaterialCardView
+                  android:id="@+id/cd15"
+                  android:layout_width="45dp"
+                  android:layout_height="45dp"
+                  android:backgroundTint="@color/brownis_blue"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintHorizontal_bias="0.5"
+                  app:layout_constraintStart_toEndOf="@+id/cd14"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintVertical_bias="0.5"
+                  style="@style/card_style"/>
+
+          </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+      </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
